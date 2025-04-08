@@ -52,11 +52,4 @@ public class UserSvcImpl implements UserSvc {
     }
     throw new RuntimeException("User not found");
   }
-
-  @Override
-  public User getUserByEmail(String email) {
-    return null;
-  }
-
-
 }
